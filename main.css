@@ -1,0 +1,32 @@
+@import url(./reset.css);
+
+:root {
+  --color-violet: #845EC2;
+  --color-pink: #FF6F91;
+  --color-yello: #F9F871;
+  --color-blue: #2C73D2;
+  --color-green: #008F7A;
+  --color-orange: #FFC75F;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  width: 25%;
+  height: 3.5rem;
+  font-size: 1.5rem;
+  line-height: 3.5rem;
+  font-weight: bold;
+  text-align: center;
+  list-style: none;
+  background-color: var(--color-orange);
+}
+
+li:hover {
+  background-color: var(--color-pink);
+  transform: scaleX(1.2);
+  transition-duration: .5s;
+}
